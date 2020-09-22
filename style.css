@@ -135,7 +135,7 @@ html {
 .about__text {
   padding-top: 20px;
 }
-.about__text p{
+.about__text p {
   padding: 5px 0;
 }
 /******************************************************************* partners */
@@ -192,6 +192,7 @@ html {
 }
 .item-img {
   width: 300px;
+  height: auto;
 }
 /******************************************************************* location */
 .location {
