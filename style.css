@@ -309,8 +309,7 @@ html {
     display: block;
   }
   .header__inner a:hover {
-    background-color: #ddd;
-    color: black;
+    color: #149dd9;
   }
   .nav p {
     display: none;
