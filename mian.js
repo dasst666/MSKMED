@@ -1,4 +1,5 @@
 var map;
+var myLinks = document.getElementById("myLinks");
 const header = document.querySelector(".header");
 const header__logo = document.querySelector(".header__logo-img");
 const header__text = document.querySelector(".header__logo-text");
@@ -35,7 +36,6 @@ document.addEventListener("DOMContentLoaded", checkScroll);
 
 // Burger menu
 function myFunction() {
-  var myLinks = document.getElementById("myLinks");
   if (myLinks.style.display === "block") {
     myLinks.style.display = "none";
   } else {
