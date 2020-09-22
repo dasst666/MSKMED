@@ -35,17 +35,20 @@ window.addEventListener("scroll", function () {
 document.addEventListener("DOMContentLoaded", checkScroll);
 
 // Burger menu
-function myFunction() {
-  if (myLinks.style.display === "block") {
-    myLinks.style.display = "none";
-  } else {
-    myLinks.style.display = "block";
+if (window.screen.width < 600) {
+  function myFunction() {
+    if (myLinks.style.display === "block") {
+      myLinks.style.display = "none";
+    } else {
+      myLinks.style.display = "block";
+    }
   }
 }
-
 // Close menu
-for (let navItem of navItems) {
-  navItem.addEventListener("click", function () {
-    myLinks.style.display = "none";
-  });
+if (window.screen.width < 600) {
+  for (let navItem of navItems) {
+    navItem.addEventListener("click", function () {
+      myLinks.style.display = "none";
+    });
+  }
 }
