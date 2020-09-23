@@ -309,9 +309,6 @@ html {
     font-size: 17px;
     display: block;
   }
-  .header__inner a:hover {
-    color: #149dd9;
-  }
   .nav p {
     display: none;
   }
